@@ -120,7 +120,7 @@ function calculadora() {
 
         alert('El resultado de ' + num1 + ' ' + operacion + ' ' + num2 + ' es: ' + resultado);
 
-        let opcion = prompt("¿Desea realizar otra operación? (s/n)");
+        let opcion = prompt("¿Desea realizar alguna otra operación? (s/n)");
         if (opcion.toLowerCase() !== 's') {
             continuar = false;
         }
